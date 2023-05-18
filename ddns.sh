@@ -1,7 +1,7 @@
 #!/bin/sh
 # A script for dnspod ddns synchronizing ipv6
 ip=$(ip addr show dev ppp0 | sed -e's/^.*inet6 \(2409[^ ]*\)\/64 scope global.*$/\1/;t;d')
-# ppp0 需要改成你自己的ipv6网卡例如eth0
+# ppp0 需要改成你自己的ipv6网卡例如eth0，2409也要改成你的ip的前缀
 token1="" # dnspod的第一个token
 
 token2="" # dnspod的第二个token
