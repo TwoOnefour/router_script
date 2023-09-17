@@ -15,3 +15,12 @@ Linux RT-AC68U-79E8 2.6.36.4brcmarm #1 SMP PREEMPT Sat Aug 7 08:32:18 UTC 2021 a
 
 386.3_2 梅林
 ```
+
+# ddns.sh
+自动同步ipv6的ddns脚本
+
+# iptables.sh
+关于我路由的一些开机自启的配置，包括写入crontab， 添加iptables规则， 开启zerotier， 绑定arp， socat反向代理ipv6到ipv4等等
+
+# zerotier.sh
+我的zerotier启动脚本
